@@ -1,6 +1,9 @@
 import restroImg from '../images/restaurant.jpg';
 
 export function loadLandingPage() {
+  const content = document.getElementById('content');
+  content.innerHTML = ''; 
+
   const text = document.createElement('div');
   text.className = 'text-center';
 
@@ -14,7 +17,6 @@ export function loadLandingPage() {
   paragraph.textContent = 'Serving delicious meals with a touch of love.';
   text.appendChild(paragraph);
 
-  const content = document.getElementById('content');
   content.appendChild(text);
 
   const image = document.createElement('div');
