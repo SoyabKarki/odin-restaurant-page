@@ -11,7 +11,17 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
-    watchFiles: ["./src/template.html"],
+    static: "./dist",
+    watchFiles: {
+      paths: ["src/**/*"],
+      options: {
+        usePolling: true,
+        interval: 500,
+      },
+    },
+    open: true,
+    hot: false,
+    liveReload: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
