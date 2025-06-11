@@ -9,7 +9,7 @@ export function loadAboutPage() {
 
   const description = document.createElement('p');
   description.className = 'lead text-center mt-3';
-  description.textContent = 'We’re a locally owned restaurant serving comfort food made with love.';
+  description.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis congue augue, id dictum risus. Donec leo tellus, fringilla in aliquet pretium, imperdiet ac libero. Duis efficitur nisi a ipsum venenatis tincidunt. Ut non risus tellus. Cras ornare, mauris ut vulputate interdum, diam lorem luctus odio, vitae placerat dui nisi.';
   content.appendChild(description);
 
   const contact = document.createElement('div');

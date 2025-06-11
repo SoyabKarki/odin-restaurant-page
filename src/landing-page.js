@@ -9,12 +9,12 @@ export function loadLandingPage() {
 
   const title = document.createElement('h1');
   title.className = 'display-4';
-  title.textContent = 'Welcome to Our Restaurant';
+  title.textContent = 'Welcome to Restaurant';
   text.appendChild(title);
 
   const paragraph = document.createElement('p');
   paragraph.className = 'lead';
-  paragraph.textContent = 'Serving delicious meals with a touch of love.';
+  paragraph.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper placerat pellentesque. Sed a aliquam nisi. Etiam in nisl felis.';
   text.appendChild(paragraph);
 
   content.appendChild(text);
